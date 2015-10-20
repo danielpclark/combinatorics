@@ -26,3 +26,10 @@ fn it_combinatorials(){
   assert_eq!(combinatorial_count(18, 3), 816);
   assert_eq!(combinatorial_count(42, 5), 850668)
 }
+
+#[test]
+#[should_panic]
+fn it_barfs(){
+  assert_eq!(permutations(4, 6), 360);
+  assert_eq!(combinatorial_count(4, 6), 15);
+}
