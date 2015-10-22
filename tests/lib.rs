@@ -1,6 +1,6 @@
 extern crate combinatorics;
 
-use combinatorics::*;
+use combinatorics::rust::*;
 
 #[test]
 fn it_arrayifies(){
