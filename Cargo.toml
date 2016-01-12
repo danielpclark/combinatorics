@@ -1,11 +1,11 @@
 [package]
 name = "combinatorics"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Daniel P. Clark <6ftdan@gmail.com>"]
 description = "reserved"
 homepage = "https://github.com/danielpclark/combinatorics"
 repository = "https://github.com/danielpclark/combinatorics"
-license = "MIT"
+license = "MIT OR Apache-2.0"
 readme = "README.md"
 
 [lib]
