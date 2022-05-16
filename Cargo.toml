@@ -11,3 +11,6 @@ readme = "README.md"
 [lib]
 name = "combinatorics"
 crate-type = ["dylib", "rlib"]
+
+[dependencies]
+libc = "0.2.125"
